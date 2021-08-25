@@ -41,8 +41,6 @@ Traveller.prototype.getUniqueModesOfTransport = function () {
   return newJourneys.filter((journey, index) =>{
     return indexOf(journey) === journey;
   })
-
 };
-
 
 module.exports = Traveller;
